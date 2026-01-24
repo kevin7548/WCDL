@@ -1,1 +1,106 @@
-*.pdf
+# ===========================================
+# DATA FILES - DO NOT COMMIT
+# ===========================================
+
+# NetCDF files (climate/reanalysis data)
+*.nc
+
+# NOAA climate index data files
+*.data
+
+# Entire data directory
+data/
+
+# But keep directory structure with .gitkeep
+!**/.gitkeep
+
+# ===========================================
+# MODELS & OUTPUTS
+# ===========================================
+
+# Trained model weights
+models/*.h5
+models/*.keras
+models/*.pkl
+models/*.pt
+models/*.pth
+*.onnx
+
+# Results (can be regenerated)
+results/
+
+# ===========================================
+# PYTHON
+# ===========================================
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# ===========================================
+# JUPYTER
+# ===========================================
+
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.jupyter/
+
+# ===========================================
+# OS GENERATED
+# ===========================================
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ===========================================
+# IDE / EDITORS
+# ===========================================
+
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# ===========================================
+# TEMPORARY & MISC
+# ===========================================
+
+*.tmp
+*.temp
+*.log
+*.bak
+*.cache
+
+# Large PDF files (optional - uncomment if needed)
+# *.pdf
