@@ -102,5 +102,5 @@ Desktop.ini
 *.bak
 *.cache
 
-# Large PDF files (optional - uncomment if needed)
-# *.pdf
+# Large PDF files
+*.pdf
