@@ -2,7 +2,6 @@
 
 [![Python](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)](https://www.tensorflow.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 > **GRU 기반 딥러닝 모델을 이용한 한반도 겨울철 기온 예측**
 > GRU-based Deep Learning Model for Korean Peninsula Winter Temperature Prediction
@@ -215,12 +214,6 @@ pip install tensorflow pandas numpy xarray netCDF4 matplotlib seaborn cartopy sc
 ## References
 
 - Han, B., Lim, Y., Kim, H., & Son, S. (2018). "Monthly statistical prediction model for Korean Peninsula winter temperature." *Atmosphere*, 28(2), 153-162. DOI: 10.14191/Atmos.2018.28.2.153
-
----
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
