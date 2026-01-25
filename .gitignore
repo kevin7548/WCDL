@@ -1,4 +1,17 @@
 # ===========================================
+# CREDENTIALS - NEVER COMMIT
+# ===========================================
+
+# CDS API credentials
+.cdsapirc
+*cdsapirc*
+
+# Environment files with secrets
+.env
+.env.*
+*.secret
+
+# ===========================================
 # DATA FILES - DO NOT COMMIT
 # ===========================================
 
@@ -102,5 +115,7 @@ Desktop.ini
 *.bak
 *.cache
 
-# Large PDF files
+# Large PDF files (except thesis poster)
 *.pdf
+!**/졸업논문*.pdf
+!**/poster*.pdf
