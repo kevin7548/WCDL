@@ -1,10 +1,9 @@
+# GRU-based Deep Learning Model for Korean Peninsula Winter Temperature Prediction
 
+**[한국어 README](README_KR.md)**
 
 [![Python](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)](https://www.tensorflow.org/)
-
-> **GRU 기반 딥러닝 모델을 이용한 한반도 겨울철 기온 예측**
-> GRU-based Deep Learning Model for Korean Peninsula Winter Temperature Prediction
 
 **Author:** Jongmin Kim (김종민)
 **Institution:** Seoul National University, Department of Earth and Environmental Sciences
